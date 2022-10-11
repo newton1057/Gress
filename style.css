@@ -1,0 +1,92 @@
+body {
+    background-color: #C689C6;
+    font-family: 'Caveat', cursive;
+    width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 30px;
+}
+p{
+    font-family: monospace;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 23ch;
+
+    animation: typing 2s steps(23),
+    blink .5s infinite step-end alternate;
+
+    overflow: hidden;
+
+}
+
+@keyframes typing{
+    from { width: 0;}
+}
+
+@keyframes blink {
+    50% {border-color: transparent;} 
+}
+
+
+/* From uiverse.io by @satyamchaudharydev */
+/* inspired form gumroad website */
+.button {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    --bg: #000;
+    --hover-bg: #ff90e8;
+    --hover-text: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 10px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+
+#S1 {
+    
+
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#Contador{
+    display: inline;
+    
+}
