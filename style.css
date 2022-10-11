@@ -137,6 +137,10 @@ img{
     width: 400px;
 }
 
+#S3 img{
+    width: 300px;
+}
+
 .video {
     background-color:white;
     border:5px solid #BFBFBF;
@@ -197,7 +201,13 @@ img{
         box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
         width: 180px;
     }
+    #S5 img{
+        width: 100px;
+    }
 
+    #S5 #eliminar{
+        display: none;
+    }
     #S4 img{
         display: none;
     }
