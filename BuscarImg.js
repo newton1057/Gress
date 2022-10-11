@@ -4,7 +4,7 @@ function BuscarImagenes(){
    
     var img = document.getElementById("ImgAleatoria");
     
-    const src = "./img/" + + Iterador + ".jpg";
+    const src = "./img/" + + Iterador + "-min.jpg";
     img.setAttribute("src", src); 
 
     function getRandomInt(max) {
